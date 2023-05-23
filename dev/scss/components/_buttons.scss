@@ -1,3 +1,35 @@
 /* =============
     Buttons
 ============= */
+
+@mixin button {
+    background-color: teal;
+    font-size: 18px;
+    padding: 18px 9px;
+    transition: .3s;
+    color: teal;
+    @include btn-font();
+        &: :hover{
+            background-color: gray;
+            transition: .3s;
+        }
+    @include lg{
+        padding: 20px 58px;
+    }
+}
+
+@mixin button{
+    background-color: teal;
+    font-size: 18px;
+    padding: 20x 18px;
+    transition: .3s;
+    color: teal;
+    @include btn-font();
+        &: :hover{
+            background-color: gray;
+            transition: .3s;
+        }
+    @include lg{
+        padding: 13px 26px;
+    }
+}

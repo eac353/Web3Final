@@ -1,3 +1,143 @@
 /* =============
     Typography
 ============= */
+
+@mixin hero {
+    font-family: 'Poppins', Bold;
+    font-weight: 700;
+    font-size: 18.57px;
+    color: white;
+
+    @include lg{
+        font-family: Poppins;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+}
+
+@mixin subhead {  
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: teal;
+ 
+    @include lg{
+        font-family: Poppins;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 69px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+}
+
+@mixin body {
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: justified;
+    color: black;
+
+    @include lg{
+        font-family: Arimo;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}
+
+@mixin feature{
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+
+    @include lg{
+        font-family: Arimo;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}
+
+@mixin featurebody{
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+
+    @include lg{
+        font-family: Arimo;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}
+
+@mixin reviewtitle{
+    font-family: Arimo;
+    font-size: 20px;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+}
+
+@mixin reviewbody{
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+}
+
+
+h1{
+    @include hero();
+}
+
+h2{
+    @include subhead();
+}
+
+p{
+    @include body();
+}
+
+h3{
+    @include feature();
+}
+
+h4{
+    @include featurebody();
+}
+
+h5{
+    @include reviewtitle();
+}
+
+h6{
+    @include reviewbody();
+}
