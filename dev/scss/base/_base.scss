@@ -3,3 +3,24 @@
 ============= */
 
 
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @include lg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 72px;
+    }
+}
+
+section{
+    padding: 72px;
+    @include lg{
+        padding: 122px;
+    }
+}
+
+img{
+    max-width: 100%;
+}

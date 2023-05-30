@@ -1,0 +1,12 @@
+.reviews div{
+    background-color: $gray;
+    padding: 72px 16px 53px 16px;
+    margin-top: 72px;
+
+    @include lg{
+        padding: 72px 16px 180px 16px;
+    }
+    @include md{
+        padding: 72px 16px 180px 16px;
+    }
+}

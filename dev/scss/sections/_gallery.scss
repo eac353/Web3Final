@@ -1,0 +1,63 @@
+section{
+    .gallery {
+        background-color: $darkteal;
+        padding: 0px;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "imgone imgtwo"
+            "imgthree imgfour"
+            "imgfive imgfive"
+            "imgsix imgsix"
+            "imgsev imgeight"
+            "imgnine imgnine";
+
+            @include lg{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+            "imgone imgtwo imgfive imgfive"
+            "imgthree imgfour imgfive imgfive"
+            "imgnine imgnine imgsix imgsix"
+            "imgnine imgnine imgsev imgeight";
+            }
+
+        .imgone{
+            
+            grid-area: imgone;
+        
+        }
+        .imgtwo{
+            grid-area: imgtwo;
+        }
+        .imgthree{
+            grid-area: imgthree;
+        }
+        .imgfour{
+            grid-area: imgfour;
+        }
+        .imgfive{
+            grid-area: imgfive;
+        }
+        .imgsix{
+            grid-area: imgsix;
+        }
+        .imgsev{
+            grid-area: imgsev;
+        }
+        .imgeight{
+            grid-area: imgeight;
+        }
+        .imgnine{
+            grid-area: imgnine;
+        }
+
+        @include md{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

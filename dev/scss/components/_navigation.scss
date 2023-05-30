@@ -1,3 +1,115 @@
 /* =============
     Navigation
 ============= */
+header {
+    background-color: $darkteal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #logo-container{
+        img{
+            width: 200px;
+            align-items: center;
+            @include lg{
+                width: 300px;
+                margin-left: 100px;
+                margin-top: 12px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    #burger-btn {
+        display: block;
+        span,
+        span::before,
+        span::after {
+            height: 5px;
+            width: 30px;
+            background-color: white;
+        }
+
+        span {
+            display: block;
+            display: block;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: " ";
+                top: -10px;
+            }
+
+            &::after {
+                position: absolute;
+                content: " ";
+                top: 10px;
+            }
+        }
+    }
+    #burger-container{
+        display: block;
+        position: relative;
+        z-index: 3;
+        @include lg{
+            display: none;
+            }
+        }
+        
+        #main-menu{
+        ul{ 
+            list-style: none;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 18px;
+            a{
+                color: white;
+            }
+            gap: 30px;
+            display: flex;
+            }
+            display: none;
+        
+        @include lg{
+            display: inline;
+            }
+        }
+    #search{
+        display: none;
+        input{
+            font-family: Poppins;
+            font-weight: 200;
+            font-size: 18px;
+            text-align: right;
+            margin-right: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        button{
+            border-radius: 30px;
+            border: none; 
+        }
+        @include lg{
+            display: flex;
+            align-items: center;
+            border-radius: 30px;
+            background-color:$gray;
+            input{
+                background-color: $gray;
+                border: none;
+            }
+        }
+    }
+
+    #cart{
+        display: none;
+        @include lg{
+            display: inline;
+            width: 35px;
+            margin-right: 100px;
+            margin-top: 12px;
+            margin-bottom: 5px;
+        }
+    }
+}
