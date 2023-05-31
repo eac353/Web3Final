@@ -22,9 +22,7 @@ header {
 
     #burger-btn {
         display: block;
-        span,
-        span::before,
-        span::after {
+        div{
             height: 5px;
             width: 30px;
             background-color: white;

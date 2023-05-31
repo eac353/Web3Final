@@ -164,6 +164,32 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/Glowforge Photos copy\/Frame 18.png" : {
+      "ft" : 32768,
+      "iS" : 4798,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Glowforge Photos copy\/Frame 18.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Glowforge Photos copy\/Frame 26.png" : {
+      "ft" : 32768,
+      "iS" : 2623,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Glowforge Photos copy\/Frame 26.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/Glowforge Photos copy\/gearshape.arrow.triangle.2.circlepath@2x.png" : {
       "ft" : 32768,
       "iS" : 1648,
@@ -374,8 +400,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/thankyou\/thankyou.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/css\/thankyou.html",
+      "oF" : 2
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -578,6 +604,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_cart.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_cart.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_features.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -623,6 +664,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_payship.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_payship.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_product.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -648,6 +704,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_reviews.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_thankyou.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_thankyou.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

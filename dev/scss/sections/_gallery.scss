@@ -1,8 +1,8 @@
-section{
-    .gallery {
+.gallery{
         background-color: $darkteal;
-        padding: 0px;
-    }
+        h2{
+            color: white;
+        }
     ul{
         list-style: none;
         padding: 0;
@@ -16,6 +16,8 @@ section{
             "imgsix imgsix"
             "imgsev imgeight"
             "imgnine imgnine";
+
+    
 
             @include lg{
             grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -56,8 +58,6 @@ section{
             grid-area: imgnine;
         }
 
-        @include md{
-            grid-template-columns: 1fr 1fr;
-        }
+        
     }
 }

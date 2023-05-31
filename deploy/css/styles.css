@@ -518,9 +518,7 @@ header #logo-container img {
 header #burger-btn {
   display: block;
 }
-header #burger-btn span,
-header #burger-btn span::before,
-header #burger-btn span::after {
+header #burger-btn div {
   height: 5px;
   width: 30px;
   background-color: white;
@@ -632,11 +630,13 @@ header #cart {
   }
 }
 
-section .gallery {
+.gallery {
   background-color: rgb(13, 51, 56);
-  padding: 0px;
 }
-section ul {
+.gallery h2 {
+  color: white;
+}
+.gallery ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -645,42 +645,41 @@ section ul {
   grid-template-areas: "imgone imgtwo" "imgthree imgfour" "imgfive imgfive" "imgsix imgsix" "imgsev imgeight" "imgnine imgnine";
 }
 @media (min-width: 1024px) {
-  section ul {
+  .gallery ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "imgone imgtwo imgfive imgfive" "imgthree imgfour imgfive imgfive" "imgnine imgnine imgsix imgsix" "imgnine imgnine imgsev imgeight";
   }
 }
-section ul .imgone {
+.gallery ul .imgone {
   grid-area: imgone;
 }
-section ul .imgtwo {
+.gallery ul .imgtwo {
   grid-area: imgtwo;
 }
-section ul .imgthree {
+.gallery ul .imgthree {
   grid-area: imgthree;
 }
-section ul .imgfour {
+.gallery ul .imgfour {
   grid-area: imgfour;
 }
-section ul .imgfive {
+.gallery ul .imgfive {
   grid-area: imgfive;
 }
-section ul .imgsix {
+.gallery ul .imgsix {
   grid-area: imgsix;
 }
-section ul .imgsev {
+.gallery ul .imgsev {
   grid-area: imgsev;
 }
-section ul .imgeight {
+.gallery ul .imgeight {
   grid-area: imgeight;
 }
-section ul .imgnine {
+.gallery ul .imgnine {
   grid-area: imgnine;
 }
-@media (min-width: 768px) {
-  section ul {
-    grid-template-columns: 1fr 1fr;
-  }
+
+.grid3 div img {
+  align-items: center;
 }
 
 section #hero section .imgone {
