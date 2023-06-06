@@ -647,7 +647,7 @@ header #cart {
 @media (min-width: 1024px) {
   .gallery ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "imgone imgtwo imgfive imgfive" "imgthree imgfour imgfive imgfive" "imgnine imgnine imgsix imgsix" "imgnine imgnine imgsev imgeight";
+    grid-template-areas: "imgone imgtwo imgfive imgfive" "imgthree imgfour imgfive imgfive" "imgsix imgsix imgsev imgsev" "imgsix imgsix imgeight imgnine";
   }
 }
 .gallery ul .imgone {
@@ -678,10 +678,17 @@ header #cart {
   grid-area: imgnine;
 }
 
+.grid3 div {
+  text-align: center;
+}
 .grid3 div img {
-  align-items: center;
+  text-align: center;
 }
 
-section #hero section .imgone {
-  background-image: url(img/GlowforgePhotoscopy/assets_69fac0673d2644f0a0a962e1cb3045ef_71efd87722d24bfd9378513947ee0e57.png);
+.imgone {
+  background-image: url("../img/Glowforge Photos copy/Group 43.png");
+}
+
+aside {
+  text-align: center;
 }
