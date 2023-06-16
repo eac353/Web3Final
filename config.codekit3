@@ -438,7 +438,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/css\/thankyou.html",
       "oF" : 2
     },
@@ -472,6 +472,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/index copy 2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index copy 2.html",
+      "oF" : 0
+    },
+    "\/dev\/index copy.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index copy.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {

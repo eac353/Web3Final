@@ -8,6 +8,8 @@
         padding: 0;
         margin: 0;
         display: grid;
+            object-fit: cover;
+            overflow: hidden;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "imgone imgtwo"
@@ -16,8 +18,6 @@
             "imgsix imgsix"
             "imgsev imgeight"
             "imgnine imgnine";
-
-    
 
             @include lg{
             grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -29,9 +29,7 @@
             }
 
         .imgone{
-            
             grid-area: imgone;
-        
         }
         .imgtwo{
             grid-area: imgtwo;
@@ -57,7 +55,5 @@
         .imgnine{
             grid-area: imgnine;
         }
-
-        
     }
 }
